@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calci">
+        
+        <div id="inputdisplay">
+            
+        </div>
+        <div id="keys">
+            <div id="key10" class="key" onclick="clearcontent()" style="background-color: whitesmoke ; ">AC</div>
+            <div id="key17" class="key" onclick="deletefun()">Del</div>
+            <div id="key19" class="key" style="background-color: white;" onclick="appendoperator('%')">%</div>
+            <div id="key16" class="key" style="background-color: rgb(255, 187, 0)" onclick="appendoperator('/')">÷</div>
+            <div id="key1" class="key" onclick="appendoperator('7')">7</div>
+            <div id="key2" class="key" onclick="appendoperator('8')">8</div>
+            <div id="key3" class="key" onclick="appendoperator('9')">9</div>
+            <div id="key18" class="key" style="background-color: rgb(255, 187, 0);" onclick="appendoperator('*')">×</div>
+            <div id="key4" class="key" onclick="appendoperator('4')">4</div>
+            <div id="key5" class="key" onclick="appendoperator('5')">5</div>
+            <div id="key6" class="key" onclick="appendoperator('6')">6</div>
+            <div id="key15" class="key" style="background-color: rgb(255, 187, 0);" onclick="appendoperator('+')">+</div>
+            <div id="key6" class="key" onclick="appendoperator('1')">1</div>
+            <div id="key8" class="key" onclick="appendoperator('2')">2</div>
+            <div id="key9" class="key" onclick="appendoperator('3')">3</div>
+            <div id="key14" class="key" style="background-color: rgb(255, 187, 0);" onclick="appendoperator('-')">-</div>
+            <div id="key11" class="key" onclick="appendoperator('0')">0</div>
+            <div id="key13" class="key" style="background-color: white" onclick="appendoperator('.')">.</div>
+            <div id="key12" class="key" onclick="Evaluate()" style="background-color: rgb(255, 187, 0); font-size: 20px;">=</div>
+            
+
+               
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

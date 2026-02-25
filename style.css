@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('calcibg.jpg'); */
+    background-color: #fff;
+    background-image:linear-gradient(45deg, rgb(214, 98, 3) 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, orange 75%, rgb(217, 25, 15)), linear-gradient(45deg,lightgrey 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, orange 75%, orange);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#calci{
+    width: 320px;
+    height: 500px;
+    background-color:lightgrey;
+    border-radius: 22px;
+    padding: 10px;
+    box-shadow: 0 0 18px lightgrey;
+    border: 3px solid black;
+    
+}
+
+#inputdisplay{
+    margin-top: 30px;
+    margin-left: 12px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    background-color:whitesmoke;
+    /* border: 1px solid; */
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#key11{
+    grid-column: span 2;
+    border-radius: 15px;
+;
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: whitesmoke;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 10px black;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    padding: 15px;
+    padding-top: 38px;
+    transition: 0.5s ease;
+    font-size: 24px;
+}
+
+.key:hover{
+    background-color: rgb(217, 199, 199);
+    color: white;
+}
+
+.key:active{
+    background-color: rgba(163, 248, 190, 0.4);
+}
